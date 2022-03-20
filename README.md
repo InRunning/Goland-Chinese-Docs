@@ -1,5 +1,5 @@
 # Goland 中文文档
-Goland中文文档，翻译自 [JetBrains Goland 文档](https://www.jetbrains.com/help/go/meet-the-product.html)
+Goland中文文档，翻译自 [JetBrains Goland 文档](https://www.jetbrains.com/help/go/meet-the-product.html)，此文档在其它 JetBrains 其它 IDE 也可通用
 
 推荐使用chrome插件[table of contens](https://chrome.google.com/webstore/detail/table-of-contents-sidebar/ohohkfheangmbedkgechjkmbepeikkej)浏览
 
