@@ -11,4 +11,5 @@ Goland中文文档，翻译自 [JetBrains Goland 文档](https://www.jetbrains.c
   - [探索Go核心转储](调试/探索Go核心转储.md)
 - [测试](测试/测试.md)
   - [创建测试](测试/创建测试.md)
+  - [运行测试](测试/运行测试.md)
 
