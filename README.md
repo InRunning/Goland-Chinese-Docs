@@ -13,3 +13,4 @@ Goland中文文档，翻译自 [JetBrains Goland 文档](https://www.jetbrains.c
   - [创建测试](测试/创建测试.md)
   - [运行测试](测试/运行测试.md)
 
+- [运行](运行/运行.md)
