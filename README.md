@@ -14,3 +14,5 @@ Goland中文文档，翻译自 [JetBrains Goland 文档](https://www.jetbrains.c
   - [运行测试](测试/运行测试.md)
 - [运行](运行/运行.md)
   - [运行调试配置](运行/运行调试配置.md)
+- [Git](Git/git.md)
+
