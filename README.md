@@ -15,4 +15,5 @@ Goland中文文档，翻译自 [JetBrains Goland 文档](https://www.jetbrains.c
 - [运行](运行/运行.md)
   - [运行调试配置](运行/运行调试配置.md)
 - [Git](Git/git.md)
+  - [设置Git仓库](Git/设置Git仓库.md)
 
