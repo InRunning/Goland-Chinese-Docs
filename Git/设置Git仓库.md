@@ -70,6 +70,34 @@ GoLand 允许你 check out（在 Git 术语是 *clone*)一个存在的项目并�
 
 你只能忽略*unversioned*文件，即你在**Unversioned Files**更改列表中看到的文件。如果文件已经被添加到Git但是还没有commit，你可以在**本地更改**视图右键并选择**回滚**（**Rollback**)。
 
+Git允许你在两种配置文件中列出被忽略的文件模式：
+
+- .git/info/exclude 文件。
+
+  此文件中列出的模式仅仅适用于仓库的本地版本。
+
+  当你初始化或check out 一个Git仓库时这个文件自动被创建。
+
+- 一个或多个在VCS根目录及其子目录的 .gitignore 文件。
+
+  这些文件被放入仓库，以便整个团队都可以使用其中的忽略模式。因此，它是存储被忽略的文件模式的最常见的地方。
+
+  如果在VCS根目录中没有 .gitignore 文件，你可以右键项目窗口的任何地方，选择**New | File**(**新建|文件**)并在**新建文件**（**New File**）对话框中输入 .gitignore。
+
+  > 要在Windows 文件管理器创建 **.gitignore**文件，创建文件名为 **.gitignore**。然后Windows 会自动将它重命名为 **.gitignore**。
+
+> ### 添加文件到 .gitignore 或 .git/info/exclude
+>
+> 1. 决定要使用哪种Git配置文件来忽略文件。如果有疑虑，使用 **.gitignore**。
+>
+> 2. 在**本地更改**（**Local Changes**）视图或项目工具窗口找到要忽略的 unversioned 文件或文件夹。[这些视图的文件颜色](https://www.jetbrains.com/help/go/file-status-highlights.html)将帮助你辨识文件的状态。
+>
+> 3. 右键所选内容并选择**Git|Add to .gitignore**或**Git | Add to .git/info/exclude**。
+>
+>    这些视图的文件颜色帮助你辨别文件的状态。
+
+
+
 
 
 
